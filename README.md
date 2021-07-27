@@ -29,4 +29,7 @@ to run the front end, you need
 ### `npm start`
 
 ## Screenshots
-As ./screenshots directory shows
+![image](https://github.com/JY-5/table/blob/master/Screenshots/1.png)
+![image](https://github.com/JY-5/table/blob/master/Screenshots/2.png)
+![image](https://github.com/JY-5/table/blob/master/Screenshots/3.png)
+![image](https://github.com/JY-5/table/blob/master/Screenshots/4.png)
