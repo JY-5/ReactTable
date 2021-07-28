@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 import json
+import sys
 
 app = Flask(__name__, static_folder='client/build', static_url_path='')
 CORS(app)
@@ -13,6 +14,7 @@ def get_list():
     data = dataJsonFile.read()
     result = json.loads(data)
     print(result)
+    sys.stdout.flush()
     return jsonify(result)
 
 @app.route('/')
