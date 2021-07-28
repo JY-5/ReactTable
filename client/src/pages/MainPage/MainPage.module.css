@@ -1,0 +1,51 @@
+.main {
+    margin: 0 2rem 0 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.subtitle .profits {
+    color:#8F92A1
+}
+
+.main h1 {
+    margin-top: 0;
+}
+
+.nav a {
+    color: #8F92A1;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+
+.active {
+    color: #6B59CC;
+    border-bottom: #6B59CC solid 2px;  
+}
+
+.active i, .active span {
+    color: #6B59CC;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: #D0D0DB solid 2px;
+    margin-bottom: 1rem;  
+}
+
+.link + .link {
+    margin-left: 1.5rem;
+}
+
+.link span {
+    margin-left: 0.3rem;
+}
