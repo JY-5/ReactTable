@@ -25,7 +25,7 @@ function App() {
           </li>
           <li className={styles.rightHeader}>
             <Link to={`/notification`} className={styles.notification} >
-              <i className={`${styles.bellIcon} far fa-bell`}></i>
+              <i className={`${styles.bellIcon} fa fa-bell-o`}></i>
             </Link>
             <Link to={`/user`} className={styles.user} >
                   Monica Simons
