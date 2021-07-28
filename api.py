@@ -10,7 +10,7 @@ CORS(app)
 @app.route('/list')
 @cross_origin()
 def get_list():
-    dataJsonFile = open('data\data.json', 'r')
+    dataJsonFile = open('/app/data/data.json', 'r')
     data = dataJsonFile.read()
     result = json.loads(data)
     print(result)
